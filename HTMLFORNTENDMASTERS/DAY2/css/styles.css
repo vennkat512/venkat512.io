@@ -1,0 +1,47 @@
+/* my first css */
+/* The First things we do in a css page is Font */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+}
+img{
+    border: 10px solid green;
+}
+h1{
+    border: 5px dotted red;
+}
+blockquote{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-align:center ;
+    font-style: italic;
+    /* rems are the relative ms the default size given by the borwser */
+}
+cite{
+    font-size: 1.5rem;
+}
+.line-height{
+line-height: 1.5rem;
+}
+.background-color{
+background-color: lightblue;
+}
+.background-image{
+background-image: url(http://placekitten.com/200/300);
+opacity: 100%;
+}
+
+/* since a is a complicated in the user action we have different states  */
+a:link{
+    color: lightblue;
+    font-weight:normal;
+}
+a:visited{
+        font-weight: bold;
+        color: brown;
+}
+/* grouing of selectors */
+
+h2,h3{
+    color:orange;
+}
